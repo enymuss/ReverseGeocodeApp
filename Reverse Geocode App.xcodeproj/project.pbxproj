@@ -14,6 +14,7 @@
 		C5124F351B153A190030874B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5124F341B153A190030874B /* Images.xcassets */; };
 		C5124F381B153A190030874B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5124F361B153A190030874B /* LaunchScreen.xib */; };
 		C5124F441B153A190030874B /* Reverse_Geocode_AppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C5124F431B153A190030874B /* Reverse_Geocode_AppTests.m */; };
+		C5124F4E1B153DBB0030874B /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5124F4D1B153DBB0030874B /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		C5124F3D1B153A190030874B /* Reverse Geocode AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Reverse Geocode AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5124F421B153A190030874B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C5124F431B153A190030874B /* Reverse_Geocode_AppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Reverse_Geocode_AppTests.m; sourceTree = "<group>"; };
+		C5124F4D1B153DBB0030874B /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5124F4E1B153DBB0030874B /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +66,7 @@
 		C5124F1B1B153A190030874B = {
 			isa = PBXGroup;
 			children = (
+				C5124F4D1B153DBB0030874B /* CoreLocation.framework */,
 				C5124F261B153A190030874B /* Reverse Geocode App */,
 				C5124F401B153A190030874B /* Reverse Geocode AppTests */,
 				C5124F251B153A190030874B /* Products */,
